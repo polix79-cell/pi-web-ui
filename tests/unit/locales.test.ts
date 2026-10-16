@@ -75,7 +75,7 @@ describe("language packs", () => {
 		}
 	});
 
-	it("非中文/非日文语言包（de/es/fr/it/ko/pt/ru）无中文假翻译残留 (issue #502)", () => {
+	it("非中文/非日文语言包（de/es/fr/it/ko/pt/ru/tr）无中文假翻译残留 (issue #502)", () => {
 		for (const [code, p] of packs) {
 			// zh / zh-TW / ja packs are written in Han characters by design.
 			if (code === "zh" || code.startsWith("zh-") || code === "ja") continue;
