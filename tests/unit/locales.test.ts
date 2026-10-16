@@ -30,7 +30,7 @@ function placeholders(s: string): string[] {
 }
 
 describe("language packs", () => {
-	it("11 个语言包齐全（de/es/fr/it/ja/ko/pt/ru/zh-Hant/zh-HK/zh-TW）", () => {
+	it("12 个语言包齐全（de/es/fr/it/ja/ko/pt/ru/tr/zh-Hant/zh-HK/zh-TW）", () => {
 		expect([...packs.keys()].sort()).toEqual([
 			"de",
 			"es",
@@ -40,6 +40,7 @@ describe("language packs", () => {
 			"ko",
 			"pt",
 			"ru",
+			"tr",
 			"zh-HK",
 			"zh-Hant",
 			"zh-TW",
